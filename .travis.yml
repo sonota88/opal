@@ -76,7 +76,7 @@ matrix:
       env: RUN=rspec
 
     - rvm: truffleruby
-      env: RUN=rspec
+      env: RUN=rspec TRUFFLERUBYOPT=--engine.Mode=latency
 
     - rvm: jruby-head
       env:
